@@ -12,3 +12,4 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 *	If the program cannot make a 3 letter word the program will need to either create a 2 or 1 letter word depending on what can be made
 *	The program should then be able to create and display that word to the user
 ## Flow Chart ##
+![alt text](https://github.com/SDearing/Project-03/blob/master/flowchart.png)
