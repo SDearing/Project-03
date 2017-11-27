@@ -11,5 +11,11 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 *	The program will then need to determine which word to pick, by finding the longest word it can create
 *	If the program cannot make a 3 letter word the program will need to either create a 2 or 1 letter word depending on what can be made
 *	The program should then be able to create and display that word to the user
+## Non-functional Specifications ##
+* The program will need to clearly show the user what the answer to their algorithm is.
+* The program will need to show to the user when they need to type in an input
+* The program will need to direct the user what they need to type in, for example telling the user that their input should only be 3 characters long
 ## Flow Chart ##
 ![alt text](https://github.com/SDearing/Project-03/blob/master/flowchart.png)
+## User Story ##
+The program will start with explaining to the user what the purpose of the program is, the program will then ask the user for an anagram that should be 3 characters.
