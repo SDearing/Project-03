@@ -16,6 +16,7 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 * The program will need to show to the user when they need to type in an input
 * The program will need to direct the user what they need to type in, for example telling the user that their input should only be 3 characters long
 ## Flow Chart ##
-![alt text](https://github.com/SDearing/Project-03/blob/master/flowchart.png)
+![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/flowchart.png)
 ## User Story ##
 The program will start with explaining to the user what the purpose of the program is, the program will then ask the user for an anagram that should be 3 characters.
+![alt text]()
