@@ -19,4 +19,6 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 ![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/flowchart.png)
 ## User Story ##
 The program will start with explaining to the user what the purpose of the program is, the program will then ask the user for an anagram that should be 3 characters.
+![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory1.PNG)
+However if the user types in an input that isn't 3 characters long, the program will loop and ask for an input again untill an input of 3 characters is entered.
 ![alt text]()
