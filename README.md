@@ -22,6 +22,7 @@ To code this program I will use an IDE (Integrated Development Environment) from
 ## Coding Standards ##
 * In my coding I will use single line comments on most lines of code stating its purpose in the programv so that anyone reading the code can easily see how the sections of code work.
 * My variables in the code will be written in CamelCase and will be named after the purpose the variable will serve.
+* I will seperate sections of code so that the code is presented clearly, and so someone can more easily understand the code. 
 ## User Story ##
 The program will start with explaining to the user what the purpose of the program is, the program will then ask the user for an anagram that should be 3 characters.
 
