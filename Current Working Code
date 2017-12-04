@@ -1,0 +1,48 @@
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <map>
+#include <cstdlib>
+using namespace std;
+int main()//initialises main function
+{
+
+  string words;
+  string input;//creates the input variable which is a string data type
+  while (input.size() != 3){//the code in the index will loop until 'input' size = 3
+    cout << "Please type in your 3 letters";//prints what is in brackets
+    cin >> input;//asks for input from user and saves the value to the 'input' variable
+    
+  }
+  cout << input<<"\n";//prints the value of 'input'
+
+  for (string::size_type i=0; i<input.length(); ++i){//loops for the length of input (3), increases i by 1 every loop so that every character of the string can be lowered to lower case, the for loop breaks when i stops being lower than 3
+     input[i]=tolower(input[i]);//decreases current character of string to lowercase (depending on value of i)
+  }
+  cout << input;
+  map <char,int> FoundLetter;
+  int score;
+  string answer;
+  int LastScore;
+  int CurrentScore;
+  ifstream dicto("3letterwords.csv"); //creates file variable
+  while (getline(dicto, words)){
+    for(int i=0; input.length();i++) // each letter in the input
+    {
+      for(int j =0; words.length(); j++) // each letter in each word 
+      {
+        if (input[i]==words[j]){
+          FoundLetter[words[j]]++;
+        }
+        if (FoundLetter[words[j]]==1){
+          score++;
+        }
+      }
+    }
+  }
+  if (score > LastScore){
+    answer= words;
+    LastScore=CurrentScore;
+  } 
+} 
+
