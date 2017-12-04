@@ -34,5 +34,5 @@ However if the user types in an input that isn't 3 characters long, the program 
 Once the correct input has been entered, the user’s anagram will then be solved and presented to the user.
 ![User Story3](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory3.PNG)<br/>
 
-##Development##
+## Development ##
 
