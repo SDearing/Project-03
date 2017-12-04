@@ -26,7 +26,13 @@ To code this program I will use an IDE (Integrated Development Environment) from
 ## User Story ##
 The program will start with explaining to the user what the purpose of the program is, the program will then ask the user for an anagram that should be 3 characters.
 
-![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory1.PNG)<br/>
+![User Story1](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory1.PNG)<br/>
 However if the user types in an input that isn't 3 characters long, the program will loop and ask for an input again untill an input of 3 characters is entered.
 
-![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory2.PNG)<br/>
+![User Story2](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory2.PNG)<br/>
+
+Once the correct input has been entered, the user’s anagram will then be solved and presented to the user.
+![User Story3](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/UserStory3.PNG)<br/>
+
+##Development##
+
