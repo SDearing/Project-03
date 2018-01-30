@@ -36,7 +36,7 @@ The programming language I am going to use to complete this project is C++, this
 ### IDE ###
 To code this program I will use an IDE (Integrated Development Environment) from the website repl.it. This website is helpful as it works as a compiler for a very large range of programming languages. Using this IDE will be helpful as it will provide me with more code insight, this is because the repl IDE knows the keywords of C++ and other languages, meaning that they will be highlighted so that they will stand out so I can easily understand the structure of my code. Another benefit of using an IDE is that it has debugging tools and a built in compiler, which means I can thoroughly test my code before I upload it, and it helps me identify possible errors within my code.
 ### Coding Standards ###
-* In my coding I will use single line comments on most lines of code stating its purpose in the programv so that anyone reading the code can easily see how the sections of code work.
+* In my coding I will use single line comments on most lines of code stating its purpose in the program so that anyone reading the code can easily see how the sections of code work.
 * My variables in the code will be written in CamelCase and will be named after the purpose the variable will serve.
 * I will seperate sections of code so that the code is presented clearly, and so someone can more easily understand the code. 
 ### Overall Look ###
