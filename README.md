@@ -2,7 +2,23 @@
 Third Project of Video Games Design HND course at West Herts College 
 ## Project Outline ##
 Design a system that will allow the player to enter up to 3 random letters. The system will return the best, largest, valid English word that can be made up if the 3 letters (blanks are no allowed). For example: TCA should return CAT, OZR should return OR, ZZA should return A.
-## Functional Specifications ##
+## Project Aims
+* Allow user to input a anagram up to 3 letters
+* Find best possible word from the dictionary found using the anagram
+## Decomposition of aims
+Decomposition is a problem solving technique which is the process of breaking down tasks into smaller and simpler sub-tasks, this helps me fully understand a task and therefore will allow me to complete each task more easily.
+### Allow User to Enter Up to 3 Letters
+* Create a input for user
+* Only allow inputs with 3 letters or less
+### Find Best Possible Word from the Dictionary found using the Anagram
+* Get users input
+* Get a list of 3 letter words from the dictionary
+* Check each word for any letters from users input
+* Each time a letter from the anagram has been found give that word 1 point
+* Display the word with the most points
+## Specifications
+Now that I have broken down the aims I can now transfer these sub-problems into specifications for the algorithm, these specifications are seperated into functional specifications and non-functional specifications. Functional specifications are the actual processes the program needs to complete and the non-functional specifications are what the program needs to do to make sure the program runs correctly.
+### Functional Specifications ###
 * The program will need to have a dictionary document implemented into it
 *	The program will need to be able to store the user’s input of 3 random letters
 *	The program must ensure that the input is 3 letters in length
@@ -11,7 +27,7 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 *	The program will then need to determine which word to pick, by finding the longest word it can create
 *	If the program cannot make a 3 letter word the program will need to either create a 2 or 1 letter word depending on what can be made
 *	The program should then be able to create and display that word to the user
-## Non-functional Specifications ##
+### Non-functional Specifications ###
 * The program will need to clearly show the user what the answer to their algorithm is.
 * The program will need to show to the user when they need to type in an input
 * The program will need to direct the user what they need to type in, for example telling the user that their input should only be 3 characters long
