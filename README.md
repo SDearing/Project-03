@@ -32,6 +32,7 @@ Now that I have broken down the aims I can now transfer these sub-problems into 
 * The program will need to show to the user when they need to type in an input
 * The program will need to direct the user what they need to type in, for example telling the user that their input should only be 3 characters long
 ## Flowchart ##
+The use of a flowchart is a problem-solving technique as it helps plan out how my coded solution, in a more simple format. This makes sure I know what steps/procedures are needed to complete my coded solution. 
 ![alt text](https://github.com/SDearing/Project-03/blob/master/RepositoryAssets/flowchart.png)
 ### Flowchart Explanation ###
 The first part of the algorithm is to collect the data for the program, this involves getting the dictionary file and receiving the user's anagram. Once that has been collected we then need to ensure the user's input is lower case, this is because the words in the dictionary file are in lower case so the users input needs to be the same case so that they can be compared. Then the program will get all words from the dictionary file that are the same length or smaller than the user's input (3 letters). Then each word will be compared with the users anagram, if there is a matching letter in the word, that word is then given a point for each matching letter. Once all the words have been compared to the anagram, the word with the most points is then chosen as the best answer and presented to the user.    
