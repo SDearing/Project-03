@@ -5,7 +5,7 @@ Design a system that will allow the player to enter up to 3 random letters. The 
 ## Project Aims
 * Allow user to input a anagram up to 3 letters
 * Find best possible word from the dictionary found using the anagram
-## Decomposition of aims
+## Decomposition of aims into Objectives
 Decomposition is a problem solving technique which is the process of breaking down tasks into smaller and simpler sub-tasks, this helps me fully understand a task and therefore will allow me to complete each task more easily.
 ### Allow User to Enter Up to 3 Letters
 * Create a input for user
