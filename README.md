@@ -53,9 +53,10 @@ The programming language I am going to use to complete this project is C++, this
 ### IDE ###
 To code this program I will use an IDE (Integrated Development Environment) from the website repl.it. This website is helpful as it works as a compiler for a very large range of programming languages. Using this IDE will be helpful as it will provide me with more code insight, this is because the repl IDE knows the keywords of C++ and other languages, meaning that they will be highlighted so that they will stand out so I can easily understand the structure of my code. Another benefit of using an IDE is that it has debugging tools and a built in compiler, which means I can thoroughly test my code before I upload it, and it helps me identify possible errors within my code.
 ### Coding Standards ###
-* In my coding I will use single line comments on most lines of code stating its purpose in the program so that anyone reading the code can easily see how the sections of code work.
-* My variables in the code will be written in CamelCase and will be named after the purpose the variable will serve.
-* I will seperate sections of code so that the code is presented clearly, and so someone can more easily understand the code. 
+* Commenting: In my coding I will use single line comments on most lines of code stating its purpose in the program so that anyone reading the code can easily see how the sections of code work.
+* Variable Names: My variables in the code will be written in CamelCase and will be named after the purpose the variable will serve. For example if a variable holds the value for the users name I will name the variable 'UserName'.
+* Braces: I will use a brace ({ }) at the end of a line when announcing an indent but when the indent is complete I will close the indent with a brace on its own line.
+* Indents: To indent I will use the tab key to create the idents in my code, the size of these indents will be 4 spaces long.
 ### Overall Look ###
 This program will be text-based, meaning that the program will all be presented by text. The program will start by presenting to the user how the program will work, meaning that the program will tell the user that the program is a anagram solver and that they need to input their 3 letter anagram. Once the user has entered an input, the program will present that it is solving the anagram and will then give the best answer it can give.
 
